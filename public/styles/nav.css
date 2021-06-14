@@ -1,0 +1,31 @@
+nav {
+    height: 120px;
+    background-color: #4056A1;
+    color: #ffffff;
+    z-index: 1;
+    padding: 1.5em;
+    display: flex;
+  }
+  
+  .title {
+    font-family: 'Bungee';
+    flex-grow: 1;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  .new-tweet {
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    text-align: right;
+    top: 34px;
+    right: 75px;
+  }
+  nav i {
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    top: 64px;
+    right: 140px;
+    z-index: 2;
+  
+  }
