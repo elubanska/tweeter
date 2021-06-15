@@ -1,0 +1,15 @@
+header {
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    background-color: steelblue;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-image: url("../images/brick-wall.png");
+    
+}
+h2 {
+    color: white;
+}
