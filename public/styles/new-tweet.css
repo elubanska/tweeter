@@ -1,0 +1,39 @@
+form {
+    display: flex;
+    flex-direction: column;
+  }
+.new-tweet {
+    font-family: 'Bungee';
+    font-size: 20px;
+    text-align: right;
+    /* top: 34px;
+    right: 75px; */
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+  }
+  form button {
+    /* display: flex; 
+    justify-content: center;
+    align-items: flex-start; */
+    background-color: steelblue;
+    color: white;
+    border: white;
+    /* position: relative; */
+  }
+  form div {
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  form textarea {
+    flex-grow: 1;
+    border-bottom: 3px solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: none;
+    resize: none;
+    line-height: 0.7;
+    font-weight: bold;
+  }
