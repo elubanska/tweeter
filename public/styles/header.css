@@ -1,12 +1,14 @@
 header {
     height: 400px;
     width: 100%;
+ 
     align-items: center;
     background-color: steelblue;
     position: relative;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
+    /* align-items:baseline; */
     background-image: url("../images/brick-wall.png");
     
 }
